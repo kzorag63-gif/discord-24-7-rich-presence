@@ -1,30 +1,31 @@
-# Replace with your Discord Application ID
-application_id: "1311204057490259979"
+# ID do seu aplicativo
+application_id: "1568806253902438431"
 
-# Activity type: 0 = Playing, 1 = Streaming, 2 = Listening, 3 = Watching
-type: 3
+# 2 = Ouvindo (Listening)
+type: 2
 
-# Activity Details
-name: "Youtube"
-details: "Watching Nexos Labs"
-state: "Subscribe"
+# Textos que aparecem no perfil
+name: "Raro"
+details: "i manage to be rare"
+state: "winning over little by little"
 
-# Activity Images
-largeImageKey: "1377844502521446490"
-largeImageText: "Watching Nexos Labs"
-smallImageKey: "1377845999464087653"
-smallImageText: "Subscribe"
+# Imagem (O nome deve ser EXATAMENTE o mesmo que você colocou no Art Assets)
+largeimagekey: "ft_midia"
+largeimagetext: "Raro"
+# Imagem pequena (deixe vazio para não dar erro)
+smallImageKey: ""
+smallImageText: ""
 
-# Activity URL (optional, works only with certain types)
-url: "https://www.youtube.com/@nexoscreator"
+# URL (vazio)
+url: ""
 
-# Activity Buttons (optional)
+# Botões
 buttons:
-  - name: "Visit Website"
-    url: "https://www.nexoscreator.tech"
-  - name: "GitHub Repo"
-    url: "https://github.com/nexoslabs/discord-24-7-rich-presence"
+  - name: "Instagram"
+    url: "https://www.instagram.com" 
+  - name: "Spotify"
+    url: "https://open.spotify.com" 
 
-# Activity Custom status
-custom_status: "Watching tutorials"
-custom_emoji: "🔥"
+# Status customizado
+custom_status: ""
+custom_emoji: ""
